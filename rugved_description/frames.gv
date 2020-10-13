@@ -1,0 +1,6 @@
+digraph G {
+"base_footprint" -> "base_link"[label="Broadcaster: /gazebo\nAverage rate: 20.263 Hz\nMost recent transform: 1042.725 ( 0.032 sec old)\nBuffer length: 3.800 sec\n"];
+"base_link" -> "base_footprint"[label="Broadcaster: /tf_footprint_base\nAverage rate: 25.223 Hz\nMost recent transform: 1042.785 ( -0.028 sec old)\nBuffer length: 3.806 sec\n"];
+"base_link" -> "right_wheel"[label="Broadcaster: /gazebo\nAverage rate: 20.268 Hz\nMost recent transform: 1042.725 ( 0.032 sec old)\nBuffer length: 3.799 sec\n"];
+"base_link" -> "left_wheel"[label="Broadcaster: /gazebo\nAverage rate: 20.268 Hz\nMost recent transform: 1042.725 ( 0.032 sec old)\nBuffer length: 3.799 sec\n"];
+}
